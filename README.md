@@ -3,7 +3,7 @@ En este apartado les voy a explicar como instalar y configurar un entorno de des
 
 Es importante destacar que existen muchos métodos para agregar TypeScript a sus proyectos, nostros a lo largo de curso utilizaremos el primero que les muestro a continuación:
 
-* Mediante el módulo npm de NodeJs y Visual Studio Code *
+* Mediante el módulo npm de NodeJs y Visual Studio Code 
 
 1. Instalar Visual Studio Code: https://code.visualstudio.com/download
 2. Instalar la última versión de Nodejs desde su página oficial: https://nodejs.org/es/download.
@@ -12,7 +12,7 @@ Es importante destacar que existen muchos métodos para agregar TypeScript a sus
 
 Con esto ya estarían las bases para empezar a desarrollar en TypeScript, más adelante en el curso explicaré como personalizar el proyecto y sus formas de compilar a JavaScript según la configuración del archivo tsconfig.json.
 
-*Otra alternativa más avanzada  que no se entratá mucho en detalle en este curso pero lo dejo de manera educativa es para casos en los que se desee utilizar Visual Studio 2022 en vez de Visual Studio Code y utilizar TypeScript junto a otras técnologías
+* Otra alternativa más avanzada  que no se entratá mucho en detalle en este curso pero lo dejo de manera educativa es para casos en los que se desee utilizar Visual Studio 2022 en vez de Visual Studio Code y utilizar TypeScript junto a otras técnologías
 como ASP.NET.
 
 Para esto, en la pestaña Herramientas seleccionamos el manager:

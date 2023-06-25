@@ -8,11 +8,13 @@ Es importante destacar que existen muchos métodos para agregar TypeScript a sus
 1. Instalar Visual Studio Code: https://code.visualstudio.com/download
 2. Instalar la última versión de Nodejs desde su página oficial: https://nodejs.org/es/download.
 3. Una vez instalado nodejs, creamos una carpeta para el proyecto vacío y lo abrimos con VS Code.
-4. Con la terminal de IDE escribimos npm install typescript --save-dev apuntando a la ruta de la carpeta del proyecto.
+4. Ejecutamos el código npm install -g typescript para poder usar los comandos de Ts en el cmd,powershell o cualquier terminal.
+5. Con la terminal de IDE escribimos npm install typescript --save-dev apuntando a la ruta de la carpeta del proyecto para que cree los archivos iniciales.
+6. Si no se creo el archivo tsconfig.json, ejecutar el comando tsc --init apuntando a la ruta del proyecto.
 
 Con esto ya estarían las bases para empezar a desarrollar en TypeScript, más adelante en el curso explicaré como personalizar el proyecto y sus formas de compilar a JavaScript según la configuración del archivo tsconfig.json.
 
-* Otra alternativa más avanzada  que no se entratá mucho en detalle en este curso pero lo dejo de manera educativa es para casos en los que se desee utilizar Visual Studio 2022 en vez de Visual Studio Code y utilizar TypeScript junto a otras técnologías
+* Otra alternativa más avanzada para casos en los que se desee utilizar Visual Studio 2022 en vez de Visual Studio Code y utilizar TypeScript junto a otras técnologías
 como ASP.NET.
 
 Para esto, en la pestaña Herramientas seleccionamos el manager:
